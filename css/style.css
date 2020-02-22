@@ -11,7 +11,7 @@ body {
     background-color: #FEEAE9;
     border-radius: 8px;
 }
-header button {
+header button, .card-deck button {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     border: none;
     border-radius: 5px;
@@ -53,4 +53,20 @@ header button {
 }
 .cat3:hover {
     background-image: linear-gradient(to left, #4277FF, #3811F7);
+}
+
+/* Shoe Section */
+
+.shoes h2 {
+    margin-bottom: 20px;
+}
+.card-deck button:hover {
+    background-image: linear-gradient(to bottom, #FF136F 0%, #FF589B 100%);
+    color: white;
+}
+.card-deck .card {
+    transition: all 0.3s ease;
+}
+.card-deck .card:hover {
+    box-shadow: 0 0 20px #cccccc;
 }
