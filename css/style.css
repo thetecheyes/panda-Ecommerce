@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.container {
+    margin-bottom: 100px;
+}
+.carousel {
+    padding: 20px 40px;
+}
+.bg-custom {
+    background-color: #FEEAE9;
+    border-radius: 8px;
+}
+header button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.price-tag {
+    color: #FF136F;
+}
