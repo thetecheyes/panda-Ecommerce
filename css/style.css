@@ -23,3 +23,34 @@ header button {
 .price-tag {
     color: #FF136F;
 }
+
+/* Categories Section */
+
+.categories h1 {
+    color: #FFFFFF;
+}
+.categories img {
+    width: 100px;
+}
+.cat1, .cat2, .cat3 {
+    border-radius: 10px;
+    padding: 20px;
+}
+.cat1 {
+    background-image: linear-gradient(to right, #F3C81A, #EF932E);
+}
+.cat2 {
+    background-image: linear-gradient(to right, #ED468A, #E81965);
+}
+.cat3 {
+    background-image: linear-gradient(to right, #4277FF, #3811F7);
+}
+.cat1:hover {
+    background-image: linear-gradient(to right, #EF932E, #F3C81A);
+}
+.cat2:hover {
+    background-image: linear-gradient(to right, #E81965, #ED468A);
+}
+.cat3:hover {
+    background-image: linear-gradient(to left, #4277FF, #3811F7);
+}
