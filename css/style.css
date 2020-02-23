@@ -11,14 +11,18 @@ body {
     background-color: #FEEAE9;
     border-radius: 8px;
 }
-header button, .card-deck button {
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+.button-style {
+    background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
     padding: 10px 25px;
     cursor: pointer;
     margin-top: 20px;
+}
+.button-style:hover {
+    background: linear-gradient(to bottom, #FF136F 0%, #FF589B 100%);
+    color: white;
 }
 .price-tag {
     color: #FF136F;
@@ -45,24 +49,14 @@ header button, .card-deck button {
 .cat3 {
     background-image: linear-gradient(to right, #4277FF, #3811F7);
 }
-/* .cat1:hover {
-    background-image: linear-gradient(to right, #EF932E, #F3C81A);
+.cat1:hover, .cat2:hover, .cat3:hover {
+    cursor: pointer;
 }
-.cat2:hover {
-    background-image: linear-gradient(to right, #E81965, #ED468A);
-}
-.cat3:hover {
-    background-image: linear-gradient(to left, #4277FF, #3811F7);
-} */
 
 /* Shoe Section */
 
 .shoes h2 {
     margin-bottom: 20px;
-}
-.card-deck button:hover {
-    background-image: linear-gradient(to bottom, #FF136F 0%, #FF589B 100%);
-    color: white;
 }
 .card img:hover {
     cursor: pointer;
@@ -80,7 +74,28 @@ header button, .card-deck button {
 .backpack h2 {
     margin-bottom: 20px;
 }
+.backpack .card-body {
+    padding-bottom: 0;
+}
 .backpack .card-footer {
     border: none;
     background-color: transparent;
+}
+
+/* Contact Section */
+
+.contact {
+    height: 250px;
+    text-align: center;
+}
+.contact h6{
+    color: gray;
+}
+.contact input {
+    margin-top: 15px;
+}
+.contact input:focus {
+    outline: none;
+    border: 1px solid #E81965;
+    box-shadow: none;
 }
