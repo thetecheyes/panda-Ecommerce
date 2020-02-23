@@ -99,3 +99,15 @@ body {
     border: 1px solid #E81965;
     box-shadow: none;
 }
+
+/* Footer - Copyright Section */
+
+footer {
+    text-align: center;
+}
+.color-style {
+    color: #1E90FF;
+}
+a.color-style {
+    text-decoration: none;
+}
