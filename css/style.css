@@ -45,7 +45,7 @@ header button, .card-deck button {
 .cat3 {
     background-image: linear-gradient(to right, #4277FF, #3811F7);
 }
-.cat1:hover {
+/* .cat1:hover {
     background-image: linear-gradient(to right, #EF932E, #F3C81A);
 }
 .cat2:hover {
@@ -53,7 +53,7 @@ header button, .card-deck button {
 }
 .cat3:hover {
     background-image: linear-gradient(to left, #4277FF, #3811F7);
-}
+} */
 
 /* Shoe Section */
 
@@ -64,9 +64,23 @@ header button, .card-deck button {
     background-image: linear-gradient(to bottom, #FF136F 0%, #FF589B 100%);
     color: white;
 }
+.card img:hover {
+    cursor: pointer;
+}
 .card-deck .card {
     transition: all 0.3s ease;
+    border-radius: 10px;
 }
 .card-deck .card:hover {
     box-shadow: 0 0 20px #cccccc;
+}
+
+/* Backpack Section */
+
+.backpack h2 {
+    margin-bottom: 20px;
+}
+.backpack .card-footer {
+    border: none;
+    background-color: transparent;
 }
