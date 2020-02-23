@@ -28,6 +28,12 @@ body {
     color: #FF136F;
 }
 
+/* Banner Section */
+
+.banner {
+    margin-top: 150px;
+}
+
 /* Categories Section */
 
 .categories h1 {
@@ -104,6 +110,9 @@ body {
 
 footer {
     text-align: center;
+}
+footer p {
+    margin-bottom: 5px;
 }
 .color-style {
     color: #1E90FF;
